@@ -1,0 +1,32 @@
+# OS junk
+.DS_Store
+Thumbs.db
+*~
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local data exports
+*.csv
+ucsf_role_scores_*.csv
+
+# Source data (not committed — these are the raw UCSF files used to rebuild index.html)
+Physician_Leader_Cost_Center_Map_Master_*.xlsx
+FY25andFY26_Appt_Count_by_Cost_Center*.xlsx
+wRVUs_and_MD_Count_by_Cost_Center*.xlsx
+Med_Director__DATA_TABLE*.xlsx
+*_transcript.txt
+*_transcript.vtt
+
+# Python / build scratch
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# Build artifacts
+cc_data.json
